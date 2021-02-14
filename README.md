@@ -8,3 +8,4 @@
 # jsonpath函数 1.json.dumps():将字典列表转化为json格式的字符串 2.json.loads（）：将json格式字符串转化为python对象3.json.dump（）将字典列表转化为json格式的字符串并且写入文件中4.json.load（）重文件中读取json格式字符串，转化为Python对象 jsonpath简单应用查看：https://www.cnblogs.com/jpfss/p/10973590.html
 #selenium 谷歌驱动下载地址http://chromedriver.storage.googleapis.com/index.html 谷歌驱动与谷歌浏览器映射表 https://blog.csdn.net/zhu940923/article/details/81129122
 方法：find_element_by_id:根据id查找 find_elements_by_name:根据name查找 find_element_by_xpath:根据xpath查找  find_elements_by_tag_name:根据标签名查找  find_elements_by_class_name:根据class查找  find_elements_by_css_name:根据选择器查找  find_elements_by_link_text
+#requests 三方库 r.text 字符串查看响应 r.content字节类型查看响应 r.encoding 查看或者设置编码  r.status_code 查看状态码 r.headers 查看响应头部 r.url 查看响应路径 r.json()查看json数据
