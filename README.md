@@ -10,4 +10,5 @@
 方法：find_element_by_id:根据id查找 find_elements_by_name:根据name查找 find_element_by_xpath:根据xpath查找  find_elements_by_tag_name:根据标签名查找  find_elements_by_class_name:根据class查找  find_elements_by_css_name:根据选择器查找  find_elements_by_link_text
 # requests 三方库 r.text 字符串查看响应 r.content字节类型查看响应 r.encoding 查看或者设置编码  r.status_code 查看状态码 r.headers 查看响应头部 r.url 查看响应路径 r.json()查看json数据
 # 线程 面向过程 t=threading.Thread(target=XXX(线程启动的函数),name=XX（线程的名字），args=()参数传递 t.start()线程启动 t.join()让主线程等待子线程结束 面向对象 自己新建class
-线程变量为全局变量 需要使用锁 创建锁 suo=threading.Lock() 上锁suo.acquire() 释放锁suo.release()
+线程变量为全局变量 需要使用锁 创建锁 suo=threading.Lock() 上锁suo.acquire() 释放锁suo.release() 队列 import queue from Queue 创建队列 q=Queue()放入数据q.put() 获取 q.get()
+q.empty()队列是否为空 q.qsize() 队列长度 q.full()队列是否满
