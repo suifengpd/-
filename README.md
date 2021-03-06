@@ -12,4 +12,5 @@
 # 线程 面向过程 t=threading.Thread(target=XXX(线程启动的函数),name=XX（线程的名字），args=()参数传递 t.start()线程启动 t.join()让主线程等待子线程结束 面向对象 自己新建class
 线程变量为全局变量 需要使用锁 创建锁 suo=threading.Lock() 上锁suo.acquire() 释放锁suo.release() 队列 import queue from Queue 创建队列 q=Queue()放入数据q.put() 获取 q.get()
 q.empty()队列是否为空 q.qsize() 队列长度 q.full()队列是否满
-# 新建scrapy项目 scrapy startproject 项目名
+# 新建scrapy项目 scrapy startproject 项目名 scrapy genspider qiubai（爬虫文件） www.qiushibaike.com（爬虫网站域名）
+
