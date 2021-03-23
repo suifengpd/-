@@ -13,4 +13,5 @@
 线程变量为全局变量 需要使用锁 创建锁 suo=threading.Lock() 上锁suo.acquire() 释放锁suo.release() 队列 import queue from Queue 创建队列 q=Queue()放入数据q.put() 获取 q.get()
 q.empty()队列是否为空 q.qsize() 队列长度 q.full()队列是否满
 # 新建scrapy项目 scrapy startproject 项目名 scrapy genspider qiubai（爬虫文件） www.qiushibaike.com（爬虫网站域名）
+#scrapy 系统path F:\学习\pathon\code\venv\Scripts;%SystemRoot%\system32  环境path F:\学习\pathon\code\venv\Scripts
 
