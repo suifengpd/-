@@ -14,4 +14,4 @@
 q.empty()队列是否为空 q.qsize() 队列长度 q.full()队列是否满
 # 新建scrapy项目 scrapy startproject 项目名 scrapy genspider qiubai（爬虫文件） www.qiushibaike.com（爬虫网站域名）
 #scrapy 系统path F:\学习\pathon\code\venv\Scripts;%SystemRoot%\system32  环境path F:\学习\pathon\code\venv\Scripts
-
+#MYSQL Navicat启动 系统path bin路径;%SystemRoot%\system32  环境path bin路径
