@@ -16,3 +16,4 @@ q.empty()队列是否为空 q.qsize() 队列长度 q.full()队列是否满
 # scrapy 系统path F:\学习\pathon\code\venv\Scripts;%SystemRoot%\system32  环境path F:\学习\pathon\code\venv\Scripts
 # MYSQL Navicat启动 系统path bin路径;%SystemRoot%\system32  环境path bin路径
 # LinkExtractor (allow=xxx(正则表达式)，deny=xxx 正则表达式不要这个，restrict_xpaths=xxx xpath路径，restrict_css=xxx 选择器，deny_domains=xxx 不允许的域名)
+from scrapy.linkextractors import LinkExtractor
