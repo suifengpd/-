@@ -17,3 +17,4 @@ q.empty()队列是否为空 q.qsize() 队列长度 q.full()队列是否满
 # MYSQL Navicat启动 系统path bin路径;%SystemRoot%\system32  环境path bin路径
 # LinkExtractor (allow=xxx(正则表达式)，deny=xxx 正则表达式不要这个，restrict_xpaths=xxx xpath路径，restrict_css=xxx 选择器，deny_domains=xxx 不允许的域名)
 from scrapy.linkextractors import LinkExtractor
+生成crawlspider爬虫文件（功能更强大）scrapy genspider -t crawl 爬虫名 域名网址
